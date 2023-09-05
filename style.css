@@ -1,0 +1,137 @@
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+.section-title {
+  position: relative;
+  font-size: 36px;
+  font-family: "Montserrat Alternates", sans-serif;
+  margin: 0 0 60px 0; }
+
+.section-title::after {
+  position: absolute;
+  content: '';
+  bottom: -12px;
+  left: 50%;
+  width: 50%;
+  height: 2%;
+  transform: translateX(-50%);
+  background: #C38882;
+  margin: 0 0 15px 0; }
+
+body {
+  margin: 0;
+  text-align: center;
+  background: #fff;
+  color: #3d3d3d;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Lora", serif; }
+
+.section {
+  padding: 108px, 0; }
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+/* Splash */
+.splash {
+  height: 100vh;
+  position: relative;
+  background-image: url("https://i.postimg.cc/ZY61fv9g/pexels-malik-skydsgaard-12132216-1.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0 0 45px 0; }
+  .splash .splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.splash i {
+  font-size: 45px;
+  background-color: #C38882;
+  width: 71px;
+  height: 71px;
+  line-height: 71px;
+  color: #C4AFAC;
+  border-radius: 50%; }
+
+.page-title {
+  color: #C38882;
+  font-size: 60px;
+  margin: 40px 0 0 0;
+  position: relative;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500; }
+
+.page-title::after {
+  position: absolute;
+  content: '';
+  bottom: -24px;
+  left: 50%;
+  width: 60%;
+  height: 2%;
+  transform: translateX(-50%);
+  background: #C38882;
+  margin: 0 0 15px 0; }
+
+.page-subtitle {
+  color: #C38882;
+  margin: 15px 0 0 0;
+  font-size: 30px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400; }
+
+/* Intro */
+.intro {
+  background: #ffffff; }
+
+.intro p {
+  width: 70%;
+  margin: 50px auto;
+  padding: 40px 0;
+  font-family: "Lora", serif;
+  font-size: 22px;
+  border-top: 2px solid #C4AFAC;
+  border-bottom: 2px solid #C4AFAC;
+  color: #C38882; }
+
+/* About */
+.about {
+  background: #C4AFAC;
+  font-family: "Lora", serif; }
+
+/* Skills */
+.skills ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  .skills ul li {
+    position: relative; }
+
+.skill-image {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden; }
+
+.skill-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.skill.right .skill-image {
+  right: 0; }
+
+.skill.right .skill-description {
+  padding: 36px 55% 36px 0;
+  text-align: right; }
+
+.skill.left .skill-description {
+  padding: 36px 0 36px 55%;
+  text-align: left; }

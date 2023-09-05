@@ -13,7 +13,7 @@ This is one of my very first projects.
 Project is created with:
 * HTML 5
 * CSS
-* Sass: 999
+* Sass
 	
 ## Preview Image
 
